@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function createTaskElement(text, completed, priority) {
         const li = document.createElement('li');
-        li.className = 'task-item ${priority}';
+        li.className = `task-item ${priority}`;
         if (completed) li.classList.add('completed');
 
         const span = document.createElement('span');
@@ -118,8 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const total = document.querySelectorAll('.task-item').length;
         const completed = document.querySelectorAll('.task-item.completed').length;
         const percentage = total > 0 ? Math.round((completed / total) * 100) : 0;
-        progressFill.style.width = '${percentage}%;'
-        progressText.textContent = '${percentage}% Complete';
+        progressFill.style.width = `${percentage}%`;
+        progressText.textContent = `${percentage}% Complete`;
     }
 
     function displayRandomQuote() {
