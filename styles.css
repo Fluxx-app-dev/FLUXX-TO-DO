@@ -33,7 +33,7 @@ h1 {
 }
 
 .quote {
-    background: linear-gradient(45deg, #ff9a9e, #fecfef);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 15px;
     border-radius: 15px;
     margin-bottom: 20px;
@@ -49,7 +49,7 @@ h1 {
 
 #new-quote-btn {
     background: #fff;
-    color: #ff9a9e;
+    color: #7e409d;
     border: none;
     padding: 8px 15px;
     border-radius: 20px;
@@ -221,7 +221,7 @@ h1 {
 }
 
 .edit-btn, .delete-btn {
-    background: #3498db;
+    background: #9d7fe4;
     color: white;
     border: none;
     padding: 8px 12px;
@@ -232,11 +232,11 @@ h1 {
 }
 
 .edit-btn:hover {
-    background: #2980b9;
+    background: #350579;
 }
 
 .delete-btn {
-    background: #e74c3c;
+    background: #000000;
 }
 
 .delete-btn:hover {
